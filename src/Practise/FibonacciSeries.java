@@ -17,13 +17,10 @@ public class FibonacciSeries {
 			a = b;
 			b = sum;
 		}
-		
-		
 	}
 
 	public static void main(String[] args) {
 		generateFibSeries(5);
-
 	}
 
 }

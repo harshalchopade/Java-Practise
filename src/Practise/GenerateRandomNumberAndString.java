@@ -20,7 +20,7 @@ public class GenerateRandomNumberAndString {
 		System.out.println(a);
 	}
 	public static void main(String[] args) {
-		generateRandomDoubleNumber();
+		generateRandomIntNumber();
 	}
 
 }

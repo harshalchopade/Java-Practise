@@ -15,5 +15,4 @@ public class SumOfDigitsInNumber {
 		}
 		System.out.println(sum);
 	}
-
 }

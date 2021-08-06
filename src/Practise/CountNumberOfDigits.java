@@ -14,5 +14,4 @@ public class CountNumberOfDigits {
 
 		System.out.println(count);
 	}
-
 }
