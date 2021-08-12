@@ -19,8 +19,8 @@ public class CountNumberOfEvenAndOddDigits {
 			}
 			num =num/10;
 		}
-		System.out.println("Even Numbers"+even_count);
-		System.out.println("Even Numbers"+odd_count);
+		System.out.println("Even Numbers "+even_count);
+		System.out.println("Even Numbers "+odd_count);
 
 	}
 }
