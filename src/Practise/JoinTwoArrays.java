@@ -14,7 +14,7 @@ public class JoinTwoArrays {
 		Stream<String> sClass1= Arrays.stream(str1);
 		Stream<String> sClass2= Arrays.stream(str2);
 		
-		String fullArray[] = Stream.concat(sClass1, sClass2).toArray(size -> new String[size]);
+		String[] fullArray = Stream.concat(sClass1, sClass2).toArray(size -> new String[size]);
 		for(String s: fullArray)
 			System.out.println(s);
 		

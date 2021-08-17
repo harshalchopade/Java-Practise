@@ -44,12 +44,25 @@ public class ReverseANumber {
 		System.out.println("Reveres number is " + sb);
 	}
 	
+	public static void usingRecursion(int no) {
+
+		if(no<10)
+		{
+			System.out.print(no);
+			return;
+		}
+		else
+		{
+			System.out.print(no%10);
+			usingRecursion(no/10);
+		}	
+	}
 	
 	public static void main(String[] args) {
 		approach1();
 		approach2();
 		approach3();
+		usingRecursion(123);
 
 	}
-
 }

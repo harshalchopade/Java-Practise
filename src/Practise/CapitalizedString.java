@@ -1,7 +1,5 @@
 package Practise;
 
-import java.util.Iterator;
-
 public class CapitalizedString {
 
 	// Words starting with a capital letter. - Capitalized String
