@@ -22,41 +22,36 @@ public class DuplicateElementsInArray {
 		}
 	}
 
-	//Approach2
+	// Approach2
 	public static void usingHashset() {
 		HashSet<String> lang = new HashSet<String>();
 		for (String eachLang : str) {
-			if (lang.add(eachLang) == false);
+			if (lang.add(eachLang) == false)
 			System.out.println("Duplicate element found " + lang);
 		}
 	}
-	
-	//Approach3
+
+	// Approach3
 	public static void usingHashMap() {
 		HashMap<String, Integer> map = new HashMap<String, Integer>();
-		
-		for(String eachLang : str)
-		{
+
+		for (String eachLang : str) {
 			Integer count = map.get(eachLang);
-			if(count == null)
+			if (count == null)
 				map.put(eachLang, 1);
 			else
 				map.put(eachLang, ++count);
 		}
-		
-		//get values from string
+
+		// get values from string
 		Set<Entry<String, Integer>> entrySet = map.entrySet();
-		for(Entry<String, Integer> each : entrySet)
-		{
-			if(each.getValue()>1)
-				System.out.println("Duplicate element is ::"+each.getKey());
+		for (Entry<String, Integer> each : entrySet) {
+			if (each.getValue() > 1)
+				System.out.println("Duplicate element is ::" + each.getKey());
 		}
-		
 	}
-	
 
 	public static void main(String[] args) {
 		usingHashMap();
 	}
-
 }

@@ -19,14 +19,11 @@ public class FindSecondLargestNumberInArray {
 		List<Integer> list = new ArrayList<Integer>(set);
 		Collections.sort(list, Collections.reverseOrder());
 		System.out.println(list);
-		if(list.get(0)>list.get(1))
+		if (list.get(0) > list.get(1))
 			System.out.println(list.get(1));
-		
-
 	}
 
 	public static void main(String[] args) {
 		secondLargestNumberFromDuplicateArray();
 	}
-
 }
