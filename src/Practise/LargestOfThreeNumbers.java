@@ -23,5 +23,4 @@ public class LargestOfThreeNumbers {
 			System.out.println("c is largest number.");
 		
 	}
-
 }
